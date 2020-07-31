@@ -3,3 +3,5 @@ Uploaded 31st July 2020
 Creality Ender 3 with Glass bed, BigTreeTech SKR Mini E3 v.1.2, BL Touch V.3.1, ABL set to Bi-Linear 16 point mesh, with Satsana Duct (Modular Remix by Andre6553)
 
  DOWNLOAD THE MODULAR / SLIDING SATSANA DUCT from Thingiverse https://www.thingiverse.com/thing:4460216
+
+Search within Configuration.h / Configuration_adv.h for "3dpmarkr" for comments on ALL changed items.
