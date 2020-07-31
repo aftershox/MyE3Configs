@@ -7,8 +7,8 @@ Creality Ender 3 with Glass bed, BigTreeTech SKR Mini E3 v.1.2, BL Touch V.3.1, 
  SATSANA DUCT config in Configuration.h ( LINE 991 )
     #define NOZZLE_TO_PROBE_OFFSET { -52, -15, 0 }
  
- If using a different Duct / HE Fan Assembly - remember to set your NOZZLE_TO_PROBE_OFFSET for X and Y to the correct values for your duct.  You can also change these values within the
- Marlin LCD Menus.
+ If using a different Duct / HE Fan Assembly - remember to set your NOZZLE_TO_PROBE_OFFSET for X and Y to the correct values for your duct.
+ You can also change these values within the Marlin LCD Menus.
 
 Search within Configuration.h / Configuration_adv.h for "3dpmarkr" for comments on ALL changed items.
 
