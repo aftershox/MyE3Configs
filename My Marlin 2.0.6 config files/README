@@ -5,3 +5,6 @@ Creality Ender 3 with Glass bed, BigTreeTech SKR Mini E3 v.1.2, BL Touch V.3.1, 
  DOWNLOAD THE MODULAR / SLIDING SATSANA DUCT from Thingiverse https://www.thingiverse.com/thing:4460216
 
 Search within Configuration.h / Configuration_adv.h for "3dpmarkr" for comments on ALL changed items.
+
+Remember to reset your Probe Z Offset - mine is set to -2.60 / -2.61 for that perfect first layer.
+- and your Fade Z Height - in the range between 5.0 and 10.0 (depending on the height of your printed item).  Typically, I use Fade Z = 5.0mm
