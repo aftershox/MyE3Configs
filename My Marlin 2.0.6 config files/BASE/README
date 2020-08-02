@@ -1,0 +1,21 @@
+Uploaded 31st July 2020
+
+BASE CONFIGURATION FILES FOR MARLIN V.2.0.6.
+Creality Ender 3 with Glass bed, BigTreeTech SKR Mini E3 v.1.2, BL Touch V.3.1, ABL set to Bi-Linear 16 point mesh, with Satsana Duct (Modular Remix by Andre6553)
+
+ DOWNLOAD THE MODULAR / SLIDING SATSANA DUCT from Thingiverse https://www.thingiverse.com/thing:4460216
+ 
+ SATSANA DUCT config in Configuration.h ( LINE 991 )
+    #define NOZZLE_TO_PROBE_OFFSET { -52, -15, 0 }
+ 
+ If using a different Duct / HE Fan Assembly - remember to set your NOZZLE_TO_PROBE_OFFSET for X and Y to the correct values for your duct.
+ You can also change these values within the Marlin LCD Menus.
+
+Search within Configuration.h / Configuration_adv.h for "3dpmarkr" for comments on ALL changed items.
+
+Remember to reset your Probe Z Offset - mine is set to -2.60 / -2.61 for that perfect first layer.
+- and your Fade Z Height - in the range between 5.0 and 10.0 (depending on the height of your printed item).  Typically, I use Fade Z = 5.0mm
+
+Enjoy !
+
+3dpmarkr
