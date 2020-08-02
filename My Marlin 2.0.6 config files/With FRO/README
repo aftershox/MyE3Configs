@@ -1,0 +1,29 @@
+2nd August 2020
+
+Base Configuration with Filament Runout Sensor (FRO) enabled
+- The FRO I use is the "surplus to requirements" Z Axis Limit Switch which is no longer required after installing the BL Touch V.3.1.
+
+FRO Sensor case / mount (Thingiverse - TBC FILLED) 
+
+Connects to E0-STOP header port on the BTT SKR Mini E3. V.1.2.
+-The Sensor is wired up for G and S only (3 pin connector / 2 pins used)
+- the other end of the cable is a 2 pin connector (GND and PC15) on e0-STOP header / port on SKR mini board
+
+FRO SENSOR STATE
+After Installation - use a gCode Terminal to check 
+- M119 should show FRO sensor as "Open" with no filament loaded
+- M119 will show "Triggered" with filament inserted (as switch is depressed / triggered when filament is present!)
+
+Changes made
+
+In Configuration.h
+
+Line 1174 in Marlin 2.0.6. uncomment
+#define FILAMENT_RUNOUT_SENSOR  // added 02-Aug-2020 3dpmarkr
+
+LINE 1177
+#define FIL_RUNOUT_STATE     HIGH   // added 02-Aug-2020 3dpmarkr set to HIGH // default is LOW Pin state indicating that filament is NOT present.
+
+Line 1188 - uncomment
+#define FILAMENT_RUNOUT_DISTANCE_MM 25 // added 02-Aug-2020 3dpmarkr
+This allows the printer to continue printing a litle bit after detecting Filament out (depends on distance between your sensor and hotend). Filament has exited the sensor box.
