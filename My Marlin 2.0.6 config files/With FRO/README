@@ -3,7 +3,8 @@
 Base Configuration with Filament Runout Sensor (FRO) enabled
 - The FRO I use is the "surplus to requirements" Z Axis Limit Switch which is no longer required after installing the BL Touch V.3.1.
 
-FRO Sensor case / mount (Thingiverse - TBC FILLED) 
+FRO Sensor case / mount
+DOWNLOAD my FRO Box / Mount & Lid from Thingiverse - https://www.thingiverse.com/thing:4576651
 
 Connects to E0-STOP header port on the BTT SKR Mini E3. V.1.2.
 -The Sensor is wired up for G and S only (3 pin connector / 2 pins used)
